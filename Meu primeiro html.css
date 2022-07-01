@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diário Palmeirense</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<h1>Palmeiras vence e leva boa vantagem para São Paulo</h1>
+
+<body>
+    <p>Palmeiras foi para Assunção, capital do Paraguai enfrentar o Cerro Porteño,
+        partida válida pelas oitavas de final da taça libertadores da américa.
+        O primeiro tempo foi repleto de pucas emoções, com palmeiras criando pouco e
+        o Cerro Poteño muito fechado, o que se viu foi um tempo fraco e sem nem um chute direto ao gol.
+    </p>
+    <p>
+        Já no segundo tempo, a história foi diferente, palmeiras foi encontrando espaços aos poucos e com um belo
+        cruzamento
+        de Gustavo Scarpa, palmeiras abriu o placar, pouco tempo depois, com boa trocação de passes, palmeiras amplia o
+        placar,
+        fazendo dois a zero com mais um gol de Rony, dessa vez com assistencia do Dudu.
+        Para fechar o placar o zagueiro Murilo faz 3 a 0 praticamente garantindo a classificação para as quartas de
+        final.
+    </p>
+    
+
+
+
+</body>
+
+</html>
+
+*{
+    background: green;
+}
+h1 {
+    background: green;
+    color: white;
+    text-align: center;
+    border: 10px solid red
+
+
+}
+
+p {
+    background: green;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 3px;
+    text-align: justify;
+    text-indent: 60px;
+    line-height: 25px;
+
+}
