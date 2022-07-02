@@ -8,46 +8,49 @@
     <title>Diário Palmeirense</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
-<h1>Palmeiras vence e leva boa vantagem para São Paulo</h1>
 
 <body>
-    <p>Palmeiras foi para Assunção, capital do Paraguai enfrentar o Cerro Porteño,
-        partida válida pelas oitavas de final da taça libertadores da américa.
-        O primeiro tempo foi repleto de pucas emoções, com palmeiras criando pouco e
-        o Cerro Poteño muito fechado, o que se viu foi um tempo fraco e sem nem um chute direto ao gol.
-    </p>
-    <p>
-        Já no segundo tempo, a história foi diferente, palmeiras foi encontrando espaços aos poucos e com um belo
-        cruzamento
-        de Gustavo Scarpa, palmeiras abriu o placar, pouco tempo depois, com boa trocação de passes, palmeiras amplia o
-        placar,
-        fazendo dois a zero com mais um gol de Rony, dessa vez com assistencia do Dudu.
-        Para fechar o placar o zagueiro Murilo faz 3 a 0 praticamente garantindo a classificação para as quartas de
-        final.
-    </p>
-    
 
+    <section id="full-page" class="full-page">
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#home">Home</a>
+                    <a href="#full-page">Full-page</a>
+                </li>
+            </ul>
+        </nav>
 
+        <h1>
+            Palmeiras vence e leva boa vantagem para São Paulo
 
-</body>
-
-</html>
+        </h1>
+        <p id="home">Palmeiras foi para Assunção, capital do Paraguai enfrentar o Cerro Porteño,
+            partida válida pelas oitavas de final da taça libertadores da américa.
+            O primeiro tempo foi repleto de poucas emoções, com palmeiras criando pouco e
+            o Cerro Poteño muito fechado, o que se viu foi um tempo fraco e sem nem um chute direto ao gol.
+        </p>
+        <p id="full-page">
+            Já no segundo tempo, a história foi diferente, palmeiras foi encontrando espaços aos poucos e com um
+            belo
 
 *{
-    background: green;
+    padding: 0;
+    margin: 0;
 }
+
+
 h1 {
-    background: green;
-    color: white;
-    text-align: center;
-    border: 10px solid red
-
-
+    padding: 5%;
+    color: green;
+    text-align: center;   
+    display: block;
+    font-size: 30px;
+    
 }
 
 p {
-    background: green;
-    color: white;
+    color: green;
     font-size: 25px;
     letter-spacing: 3px;
     text-align: justify;
@@ -55,3 +58,61 @@ p {
     line-height: 25px;
 
 }
+.menu{
+    border: 5px solid green;
+    background: green;
+    text-align: left;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    word-spacing: 10px;
+    display: block;
+   
+}
+ a:visited{
+    position: absolute;
+    background-color: white;
+    color: red;
+    
+    
+ }
+
+ 
+.menu ul{
+    list-style: inside;
+    display: block;
+    
+
+
+}
+
+.menu ul li a:hover {
+    background: rgb(130, 209, 130);
+
+}
+            cruzamento
+            de Gustavo Scarpa, palmeiras abriu o placar, pouco tempo depois, com boa trocação de passes, palmeiras
+            amplia o
+            placar,
+            fazendo dois a zero com mais um gol de Rony, dessa vez com assistencia do Dudu.
+            Para fechar o placar o zagueiro Murilo faz 3 a 0 praticamente garantindo a classificação para as quartas
+            de
+            final.
+        </p>
+
+        <img src="https://s1.static.brasilescola.uol.com.br/be/e/palmeiras(1).jpg" alt="Logo palmeiras" width="100">
+    </section>
+
+    <a href="https://www.youtube.com/watch?v=ZGwqmbAWSYI" target="_blank">
+        Melhores momentos
+
+    </a>
+
+
+
+
+</body>
+
+</html>
